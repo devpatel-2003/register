@@ -1,0 +1,105 @@
+body {
+    /* background-image: url(https://kuorum.org/wp-content/uploads/2020/05/voto-electronico-validez-legal-940x488.jpg); */
+    background-color: lightblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    position: fixed;
+    background-color: transparent;
+    width: 100%;
+    height: 700px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.main {
+    position: relative;
+    top: 50px;
+}
+
+.main input {
+    position: relative;
+    left: 150px;
+    width: 20%;
+    height: 15px;
+    bottom: 39px;
+    transition: height 0.5s;
+}
+
+.main input:focus {
+    height: 30px;
+    font-size: 20px;
+}
+
+.left {
+    position: relative;
+    bottom: 360px;
+    left: 600px;
+}
+
+.left input {
+    position: relative;
+    left: 150px;
+    bottom: 37px;
+}
+
+.left h4 {
+    position: relative;
+    top: 3px;
+}
+
+.left p {
+    position: relative;
+    left: 150px;
+    bottom: 37px;
+}
+
+.gender input {
+    display: block;
+    margin-bottom: 20px;
+    bottom: 135px;
+    margin-left: 70px;
+}
+
+.place {
+    position: relative;
+    bottom: 75px;
+}
+
+.place input {
+    margin-bottom: 20px;
+    margin-left: 10px;
+    width: 20%;
+    height: 15px;
+    bottom: 39px;
+    transition: height 0.5s;
+}
+
+.place input:focus {
+    height: 30px;
+    font-size: 20px;
+}
+
+button {
+    position: relative;
+    left: -30px;
+    width: 20%;
+    height: 30px;
+    font-weight: 600;
+    border: 1px solid black;
+    background: linear-gradient(to right, red 50%, #fff 50%);
+    background-size: 200% 100%;
+    background-position: right;
+    transition: all 2s;
+}
+
+button:hover {
+    background-position: left;
+    font-size: 20px;
+    border: 1px solid red;
+    color: white;
+}
